@@ -64,4 +64,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+      <repository>
+          <id>deployment</id>
+        <name>Internal Releases</name>
+        <url>http://172.17.1.86:8081/repository/sonar_nexus/ </url>
+        </repository>
+    </distributionManagement>
 </project>
